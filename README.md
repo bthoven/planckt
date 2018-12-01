@@ -1,8 +1,26 @@
 # plancktables
 
-Provide the current Planck results for the cosmological parameters.
+Provide a Python interface for the current Planck results for cosmological parameters.
 
 > NOTE: The current version supports only the Planck 2018 results for the base LCDM model provided by table 2 of [1807.06209](https://arxiv.org/abs/1807.06209).
+
+
+## Simple Usage
+
+```python
+>>> from plancktables import lcdm
+>>>
+>>> H0 = lcdm.Planck18Param("H_0", "TT,TE,EE+lowE+lensing+BAO")
+>>> print(H0.value)
+67.66
+>>> print(H0.limit68)
+0.42
+>>> print(H0.units)
+'km/s/Mpc'
+```
+
+
+## The Variables
 
 The following table shows the mapping between the names of the variables in that paper and in `plancktables`:
 
