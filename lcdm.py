@@ -4,17 +4,6 @@ Contains the Planck's 2018 results for the base-LCDM model from table 2 of
 arXiv:1807.06209.
 
 """
-# Here are some conventions applied to the names of the keys describing the
-# variables:
-#
-# - A multiplication signal between two variables is showed by a double
-#   underscore "__". There is no multiplication symbol between a number and a
-#   variable.
-# - Superscripts are separated from the variable by the symbol "^" unless the
-#   superscript is a number. In that case, the number and the variable are
-#   joined together.
-# - Subscripts are separated from the variable single underscores "_".
-# - 68% limits are showed in the form [inferior, superior].
 
 __all__ = ["Planck18Param"]
 __author__ = "Beethoven Santos (thovensantos@gmail.com)"
@@ -39,6 +28,18 @@ class Planck18Param(object):
                   "equal. Please treat them with caution.")
 
 
+# Here are some conventions applied to the names of the keys describing the
+# variables:
+#
+# - A multiplication signal between two variables is showed by a double
+#   underscore "__". There is no multiplication symbol between a number and a
+#   variable.
+# - Superscripts are separated from the variable by the symbol "^" unless the
+#   superscript is a number. In that case, the number and the variable are
+#   joined together.
+# - Subscripts are separated from the variable single underscores "_".
+# - 68% limits are showed in the form [inferior, superior].
+#
 planck_2018_LCDM_dict = {
     "Omega_b__h2": {
         "TT+lowE": {"value": 0.02212, "limits68": [0.00022, 0.00022]},
