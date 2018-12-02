@@ -1,4 +1,4 @@
-0.0.1 (upcoming)
+1.0.0 (2018-12-02)
 ---
 
 - Initial release.
