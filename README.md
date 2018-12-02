@@ -1,9 +1,11 @@
 # plancktables
 
-Provide a Python interface for the current Planck results for cosmological parameters.
+#### Provide the results for cosmological parameters from the Planck satellite.
 
 > NOTE: The current version supports only the Planck 2018 results for the base LCDM model provided by table 2 of [1807.06209](https://arxiv.org/abs/1807.06209).
 
+
+<br>
 
 ## Simple Usage
 
@@ -19,6 +21,8 @@ Provide a Python interface for the current Planck results for cosmological param
 'km/s/Mpc'
 ```
 
+
+<br>
 
 ## The Variables
 
