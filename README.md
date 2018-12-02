@@ -10,9 +10,9 @@
 ## Simple Usage
 
 ```python
->>> from plancktables import lcdm
+>>> from planckt import lcdm
 >>>
->>> H0 = lcdm.Planck18Param("H_0", "TT,TE,EE+lowE+lensing+BAO")
+>>> H0 = lcdm.Param("H_0", "TT,TE,EE+lowE+lensing+BAO")
 >>> print(H0.value)
 67.66
 >>> print(H0.limit68)
