@@ -1,4 +1,4 @@
-# plancktables
+# PlanckT
 
 #### Provide the results for cosmological parameters from the Planck satellite.
 
