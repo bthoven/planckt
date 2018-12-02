@@ -1,0 +1,11 @@
+*~
+*.swp
+
+*.pyc
+*.so
+
+plancktables.egg-info
+MANIFEST
+
+.coverage
+.pytest_cache
