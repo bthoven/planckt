@@ -7,12 +7,12 @@
 
 <br>
 
-## Simple Usage
+## Usage Example
 
 ```python
->>> from planckt import lcdm
+>>> import planckt
 >>>
->>> H0 = lcdm.Param("H_0", "TT,TE,EE+lowE+lensing+BAO")
+>>> H0 = planckt.Param("H_0", "TT,TE,EE+lowE+lensing+BAO")
 >>> print(H0.value)
 67.66
 >>> print(H0.limit68)
@@ -24,9 +24,9 @@
 
 <br>
 
-## The Variables
+## The Parameters
 
-The following table shows the mapping between the names of the variables in that paper and in `plancktables`:
+The following table shows the mapping between the names of the parameters in that paper and in `plancktables`:
 
 | name in the paper                                                                 | name in `plancktables`  |
 |:---------------------------------------------------------------------------------:|:-----------------------:|
